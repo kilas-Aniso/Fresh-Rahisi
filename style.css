@@ -37,7 +37,214 @@ html{overflow-x: hidden;}
 #v1{width: 32.5%;border-radius: 40px 120px;margin-left: 20px;}
 #v2{width: 32%;height:67vh;border-radius: 40px 120px;margin-left: 20px;}
 #v3{width: 30%;height:67vh;border-radius: 40px 120px;margin-left: 20px;}
-
+#our{margin-left: 190px;font-size: 20px;}
+.footer{display: flex; margin-top: 2%;background-color: #1D5801;height: 250px;color: white;font-size: 20px;}
+.tion{margin-left: 20%;margin-top: 5%;}
+.con{margin-left: 20%;margin-top: 5%;}
+.location{margin-left: 10%;margin-top: 5%;}
+@media only screen and (max-width: 575px) {
+  body {
+    font-size: 12px;
+  }
+  .footer{
+      display:grid;
+      height:100%;
+      width:100%;
+      font-size:15px;
+  }
+  .con{
+      text-align:center;
+  }
+  .tion{
+      text-align:center;
+  }
+  .location{
+      text-align:center
+  }
+  #prdt{
+      margin-left:5%
+  }
+  #our{
+      margin-left:0px;
+      font-size:xx-small
+  }
+  #about2{
+      margin-left:0px;
+  }
+  #missionword{
+      margin-left:0;
+  }
+  #visionword{
+      margin-left:0;
+  }
+  #bring{
+      margin-left:0;
+  }
+  #pic4{
+      margin-top:10%;
+  }
+  #thank{
+      margin-top:10px
+  }
+  #us2{
+      margin-left:0;
+      align-items:center;
+  }
+  #us1{
+      margin-left:0;
+  }
+  #us3{
+      margin-left:0;
+  }
+  #us4{
+      margin-left:0;
+  }
+  #us5{
+      margin-left:0;
+  }
+  #words{
+      margin-left:0;
+  }
+  #team{
+      margin-left:14%;
+  }
+  #devs{
+      margin-left:-25%;
+      font-size:10px;
+  }
+  #app{
+      margin-left:5%;
+  }
+  #hands{
+      margin-left:15%;
+  }
+#fresh{margin-left: -199px;font-size: small;margin-top:-100px}
+  #rahisi{margin-left:-199px;margin-top:10%;}
+/*   #rahisi{margin-left: -199px;font-size: small;margin-top: -480%;}  */
+  .logo {
+    font-size: 10px;
+  }
+  .home{margin-left: -200px;font-size: small;}
+  .about{margin-left: -20px;}
+  .header{width: 99%;height:20%}
+  #pic1 {
+    width: 230px;margin-top: -180px;margin-left:0;
+  }
+  #nav{
+      display:grid;
+      margin-left:10%;
+  }
+  .home{
+      margin-left:-195px;
+      font-size:20px
+  }
+  .about{
+      margin-left:-260%;
+  }
+  .product{
+      margin-left:-260%;
+  }
+  #pic2 {
+    width: 100%;margin-left: 100px;height:40%;margin-top:38%;margin-left:0;
+  }
+  #pic3 {
+    width: 100%;margin-top: 50px;margin-left:0
+  }
+  #pic4 {
+    width: 80%;
+  }
+  #us1, #us2, #us3, #us4, #us5 {
+    width: 50%;
+  }
+  #v1, #v2, #v3 {
+    width: 90%;
+  }
+  #get1 {
+    font-size: 15px;
+    margin-top: 20px;margin-left: 5px;
+  }
+  #get2 {
+    font-size: 16px;margin-left:2%;
+  }
+  #about2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  #words {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  #mission {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #missionword {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #vision {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #visionword {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #thank {
+    font-size: 16px;
+  }
+  #hands {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  #team {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #devs {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #prdt {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  #app {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #our {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .section1, .section2, .section3 {
+    margin-top: 30px;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #foot {
+    margin-top: 20px;
+  }
+  .foot_contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .foot_contact h4 {
+    font-size: 16px;
+  }
+  .foot_contact div {
+    flex: 1;
+    margin-right: 20px;
+  }
+  #f1, #f2, #f3, #f4 {
+    display: none;
+  }
+}
 
 
 
