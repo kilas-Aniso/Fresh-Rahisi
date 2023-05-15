@@ -24,6 +24,19 @@ html{overflow-x: hidden;}
 #bring{text-align: center;margin-top: 3%;font-style: italic;color:lime;}
 #pic4{margin-top: 70px;margin-left: -30px;}
 #thank{font-size: 18px;font-weight: bolder;margin-top: -270px;float: right;color: dimgray;}
+#hands{margin-left: 600px;font-size: 100px;margin-top: -150px;}
+#team{margin-left: 570px;margin-top: 60px;font-size: 45px;font-weight: 1000;color: rgb(5, 109, 35);}
+#devs{margin-left: 20px;font-size: 18px; text-align: center;}
+#us1{width: 15%;border-radius: 80%;margin-left: 20px;border:3px solid green;}
+#us2{width: 15%;border-radius: 80%;margin-left: 60px;border:3px solid green;}
+#us3{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
+#us4{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
+#us5{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
+
+
+
+
+
 
 
 
