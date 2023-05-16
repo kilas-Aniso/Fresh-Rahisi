@@ -37,7 +37,9 @@ html{overflow-x: hidden;}
 .row1,.row2{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+
+
+  justify-content: space-evenly;
 }
 #us1{
   /* clip-path: circle(); */
@@ -46,6 +48,8 @@ html{overflow-x: hidden;}
   height: 30px;
   object-fit: cover;
   margin: auto;
+  margin-left: 30px;
+  
 }
 .row1{
   margin-bottom: 5%;
@@ -69,6 +73,7 @@ html{overflow-x: hidden;}
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 12px;
+    margin-left: 10px;
   }
   .footer{
       display:grid;
@@ -77,13 +82,16 @@ html{overflow-x: hidden;}
       font-size:15px;
   }
   .con{
-      margin-left:30%;
+      margin-left:10px;
   }
   .tion{
-    margin-left:30%;
+    margin-left:10px;
+  }
+  #p5{
+    margin-left: 35%;
   }
   .location{
-      margin-left:30%;
+      margin-left:10px;
   }
   #prdt{
       margin-left:5%
@@ -94,10 +102,11 @@ html{overflow-x: hidden;}
   }
   #about2{
       margin-left:0px;
-      margin-top: -10%;
+      margin-bottom: 2%;
   }
   #about{
-    margin-top:-10%;
+    /* margin-top:-50%; */
+    
   }
   #missionword{
       margin-left:0;
@@ -146,9 +155,9 @@ html{overflow-x: hidden;}
   #hands{
       margin-left:15%;
   }
-  #fresh{margin-left: -199px;font-size:30px;margin-top:150px}
+  #fresh{margin-left: -200px;font-size:30px;margin-top:15px}
   /*   #rahisi{margin-left:-459px;margin-top:10%;font-size:40px} */
-    #rahisi{margin-left: -399px;font-size: 30px;margin-top: -480%;}  
+    #rahisi{margin-left: -200px;font-size: 30px;margin-top: 0%;}  
     .logo {
       font-size: 10px;
     }
@@ -159,7 +168,7 @@ html{overflow-x: hidden;}
   .about{margin-left: -20px;}
   .header{width: 99%;height:20%}
   #pic1 {
-    width: 230px;margin-top: -180px;margin-left:0;
+    width: 230px;margin-top: px;margin-left:-140px;
   }
   #nav{
       display:grid;
@@ -171,33 +180,36 @@ html{overflow-x: hidden;}
       color: white;
   }
   .about{
-      margin-left:-150%;
+      margin-left:-150px;
       color: white;
   }
   .product{
-      margin-left:-150%;
+      margin-left:-150px;
       color: white;
   }
   .contacts{
-    margin-left: 150%;
+    margin-left: -150px;
     color: white;
   }
   #pic2 {
-    width: 90%;margin-left:5%;height:40%;margin-top:70%;
+    width: 90%;margin-left:5%;height:60%;margin-top:30%;
   }
   #pic3 {
     width: 100%;margin-top: 50px;margin-left:0
   }
   #pic4 {
     width: 80%;
-    margin-left:10%;
+    margin-left:0%;
   }
   #us1, #us2, #us3, #us4, #us5 {
     width: 50%;
   }
   #v1, #v2, #v3 {
     width: 70%;
+    margin-left: auto;
+    
   }
+
   #v2{
     height:40vh;
   }
@@ -205,40 +217,50 @@ html{overflow-x: hidden;}
     height:40vh;
   }
   #get1 {
-    font-size: 15px;
-    margin-top: 20px;margin-left: 75px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: auto;
   }
   #get2 {
-    font-size: 16px;margin-left:88px;
+    font-size: 23px;
+    margin-left: 10px;
+
   }
   #about2 {
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: -26%;
+    margin-left: 10px;
   }
   #words {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 2px;
   }
   #mission {
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 10px;
   }
   #missionword {
     font-size: 14px;
     margin-top: 10px;
+    margin-left: 10px;
+    
   }
   #vision {
     font-size: 20px;
     margin-top: 20px;
+    margin-left:10px;
   }
   #visionword {
     font-size: 14px;
     margin-top: 10px;
+    margin-left: 10px;
   }
   #thank {
     font-size: 16px;
     margin-left:20px;
     height:30%;
+    margin-left: 10px;
   }
   #hands {
     font-size: 40px;
@@ -252,14 +274,18 @@ html{overflow-x: hidden;}
   #devs {
     font-size: 14px;
     margin-top: 10px;
+    margin-left: auto;
   }
   #prdt {
     font-size: 24px;
     margin-top: 20px;
+    margin-left: auto;
   }
+  
   #app {
     font-size: 20px;
     margin-top: 20px;
+    margin-left: auto;
   }
   #our {
     font-size: 16px;
@@ -267,11 +293,16 @@ html{overflow-x: hidden;}
   }
   .section1, .section2, .section3 {
     margin-top: 30px;
+    margin-left: auto;
+  }
+  #h4{
+    margin-left: 25%;
   }
   #footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   #foot {
     margin-top: 20px;
@@ -281,6 +312,7 @@ html{overflow-x: hidden;}
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+    
   }
   .foot_contact h4 {
     font-size: 16px;
@@ -291,6 +323,7 @@ html{overflow-x: hidden;}
   }
   #f1, #f2, #f3, #f4 {
     display: none;
+    
   }
 }
 
