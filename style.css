@@ -28,11 +28,46 @@ html{overflow-x: hidden;}
 #hands{margin-left: 700px;font-size: 70px;margin-top: -90px;}
 #team{margin-left: 570px;margin-top: 60px;font-size: 45px;font-weight: 1000;color: rgb(5, 109, 35);}
 #devs{margin-left: 20px;font-size: 18px; text-align: center;}
-#us1{width: 15%;border-radius: 80%;margin-left: 20px;border:3px solid green;}
-#us2{width: 15%;border-radius: 80%;margin-left: 60px;border:3px solid green;height: 260px;}
-#us3{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;height: 260PX;}
-#us4{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
-#us5{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
+
+.photo1, .photo2{
+  /* margin: 20px; */
+  width: 300px;
+}
+.row1,.row2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#us1{
+  /* clip-path: circle(); */
+  border-radius: 100px;
+  width: 30 rem;
+  height: 30px;
+  object-fit: cover;
+  margin: auto;
+}
+.row1{
+  margin-bottom: 5%;
+}
+ #us1{
+  width: 65%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #prdt{margin-left: 500px;font-size: 50px;font-weight: 1000;color: rgb(5, 109, 35);}
 #app{color: green;font-size: 30px;font-weight: 800;margin-left: 500px;margin-top: 20px;}
 #v1{width: 32.5%;border-radius: 40px 120px;margin-left: 20px;}
