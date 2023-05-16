@@ -5,15 +5,16 @@ html{overflow-x: hidden;}
 #rahisi{margin-top: -34px;margin-left: -540px;color: rgb(20, 238, 20);font-size: 30px;font-weight: 600;}
 /* .navbar a{font-size: 1.7rem;margin-left: 4rem;gap: 0px;} */
 .home{margin-left: -400px;color:rgb(20, 238, 20);font-weight: 800;font-size: 20px;}
-.about{margin-left: 50px;color:rgb(20, 238, 20);font-weight: 800;font-size: 20px;}
+.about{margin-left: 50px;color:rgb(20, 238, 20);font-weight: 800;font-size: 20px}
 .product{margin-left: 50px;color:rgb(20, 238, 20);font-weight: 800;font-size: 20px;}
 #logs{margin-top: 100px;}
+#about{margin-top: -15%;}
 /* #fresh2{margin-left: 40px;}
 #rahisi2{margin-top: -18px;margin-left: 80px;} */
 #pic1{margin-top: -16px;margin-left: -260px;width: 40%;}
-#pic2{width: 60%;margin-left: 600px;height: 100vh;}
-#get1{margin-left: 80px; margin-top: -35%;font-size: 40px;font-weight: 800;}
-/* .wordy{margin-left: -50px; margin-top: -25%;} */
+#pic2{width: 60%;margin-left: 500px;height: 80vh;margin-top: 8%;border-radius: 120px 40px;}
+#get1{margin-left: 28px; margin-top: -20%;font-size: 33px;font-weight: 800;}
+/* .wordy{margin-left: -0px; margin-top: -76%;} */
 #get2{margin-left: 180px;color: green;font-size: 20px;font-weight: 800;margin-top: -100px;}
 #about2{margin-left: 500px;font-size: 50px;font-weight: 1000;margin-top: 250px;color: rgb(5, 109, 35);}
 #words{margin-left: 150px;font-size: 20px;}
@@ -21,15 +22,15 @@ html{overflow-x: hidden;}
 #missionword{margin-left: 200px;margin-top: -22px;font-size: 20px;}
 #vision{font-size: 25px;font-weight: 800;margin-left: 40px;color: #1d5801;}
 #visionword{margin-left: 200px;margin-top: -22px;font-size: 20px;}
-#bring{text-align: center;margin-top: 3%;font-style: italic;color:lime;}
+#bring{text-align: center;margin-top: 3%;font-style: italic;color:lime;font-weight:bolder;font-size: 30px;}
 #pic4{margin-top: 70px;margin-left: -30px;}
-#thank{font-size: 18px;font-weight: bolder;margin-top: -270px;float: right;color: dimgray;}
-#hands{margin-left: 600px;font-size: 100px;margin-top: -150px;}
+#thank{font-size: 18px;margin-top: -270px;float: right;margin-right: 15%;background-color: whitesmoke;height: 250px;padding: 50px;border-radius: 40px 120px;}
+#hands{margin-left: 700px;font-size: 70px;margin-top: -90px;}
 #team{margin-left: 570px;margin-top: 60px;font-size: 45px;font-weight: 1000;color: rgb(5, 109, 35);}
 #devs{margin-left: 20px;font-size: 18px; text-align: center;}
 #us1{width: 15%;border-radius: 80%;margin-left: 20px;border:3px solid green;}
-#us2{width: 15%;border-radius: 80%;margin-left: 60px;border:3px solid green;}
-#us3{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
+#us2{width: 15%;border-radius: 80%;margin-left: 60px;border:3px solid green;height: 260px;}
+#us3{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;height: 260PX;}
 #us4{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
 #us5{width: 15%;border-radius: 80%;margin-left: 70px;border:3px solid green;}
 #prdt{margin-left: 500px;font-size: 50px;font-weight: 1000;color: rgb(5, 109, 35);}
