@@ -9,17 +9,23 @@
     <title>Fresh Rahisi</title>
 </head>
 <body>
-    <section class="section1" id="home">
-  <header class="header">
-    <img src="images/Screenshot_from_2023-05-15_18-14-54-removebg-preview.png" id="pic1">
-    <a href="#" class="logo"><p id="fresh">Fresh</p>
-      <p id="rahisi">Rahisi</p></a>
-  <nav id="nav">
-   <a href="#home" class="home">Home</a>
-   <a href="#about" class="about">About us</a>
-   <a href="#product" class="product">Product</a>
-   <a href="#contacts" class="contacts">Contacts</a>
-</header>
+  <section id="home">
+    <nav id="sideNav">
+      <img src="images/ones.png" id="logo1">
+      <ul>
+        
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contacts">Contact Us</a></li>
+      </ul>
+      
+    </nav>
+    
+    <img src="images/menu-removebg-preview (1).png" id="menuBtn">
+
+  </section>
+
 <img src="images/greens.jpg" id="pic2">
 <div class="wordy">
 <p id="get1">GET IT FRESH EVERYDAY</p>
@@ -50,11 +56,42 @@
      </div>
      <p id="hands">&#129309;</p><p id="team">Our Team</p><br>
      <p id="devs">Our team comprises of five Software Developers</p><br>
-     <img src="images/rose.jpg" id="us1">
-     <img src="images/aniso.jpeg" id="us2">
-     <img src="images/14thFeb2023-24.jpg" id="us3">
-     <img src="images/IMG_2777.jpg" id="us4">
-     <img src="images/pauline.jpg" id="us5">
+     <div class="teamphotos">
+      <div class="row1">
+       <div class="photo1">
+        <img src="images/image.png" id="us1">
+        <h1 id="h4">Mama Mboga</h1>
+        <p id="p5">Owner</p>
+       </div>
+       <div class="photo1">
+        <img src="images/rose.jpg" id="us1">
+        <h1 id="h4">Rose Kivuva</h1>
+        <p id="p5">Assistant</p>
+       </div>
+       <div class="photo1">
+        <img src="images/aniso.jpeg" id="us1">
+        <h1 id="h4">Aniso Kilas</h1>
+        <p id="p5">Delivery team</p>
+       </div>
+      </div>
+      <div class="row2">
+       <div class="photo2">
+        <img src="images/14thFeb2023-24.jpg"  id="us1">
+        <h1 id="h4">Diana Owiti</h1>
+        <p id="p5">Delivery team</p>
+       </div>
+       <div class="photo2">
+        <img src="images/IMG_2777.jpg"  id="us1">
+        <h1 id="h4">Rediet Hadera</h1>
+        <p id="p5">Delivery team</p>
+       </div>
+       <div class="photo2">
+        <img src="images/pauline.jpg" id="us1">
+        <h1 id="h4">Pauline Ochieng</h1>
+        <p id="p5">Delivery team</p>
+       </div>
+      </div>
+      </div>
 </section><br><br><br><br>
 <section class="section3" id="product">
   <p id="prdt">PRODUCTS</p>
@@ -94,4 +131,19 @@
   </footer>
 </section>
 </body>
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+  sideNav.style.right="-500px";
+  menuBtn.onclick = function(){
+    if(sideNav.style.right == "-500px"){
+      sideNav.style.right = "0";
+    }
+    else{
+      sideNav.style.right = "-500px";
+    }
+  }
+
+</script>
 </html>
+
