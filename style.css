@@ -1,6 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;border: none;outline: none;scroll-behavior: smooth;font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif}
 html{overflow-x: hidden;}
 .header{background-color: #1D5801;position: fixed;top:0;left: 0;width: 100%;padding: 2rem 9%;display: flex;justify-content: space-between;align-items: center;z-index: 100;height: 15vh;}
+
 #fresh{color: rgb(252, 8, 8);font-size: 30px;font-weight: 600;margin-left: 40px;margin-top: -303px;}
 #rahisi{color: rgb(20, 238, 20);font-size: 30px;font-weight: 600;}
 /* .navbar a{font-size: 1.7rem;margin-left: 4rem;gap: 0px;} */
@@ -8,6 +9,7 @@ html{overflow-x: hidden;}
 /* #logs{margin-top: 100px;}
 #about{margin-top: -15%;} 
  #fresh2{margin-left: 40px;}
+
 #rahisi2{margin-top: -18px;margin-left: 80px;} */
 #pic1{margin-left: 4%;width: 20%;}
 #pic2{width: 60%;margin-left: 470px;height: 80vh;border-radius: 120px 40px;margin-top: 5px;}
@@ -105,6 +107,7 @@ padding: 0 30px;
 #v3{width: 28%;height:57vh;border-radius: 40px 120px;margin-left: 59px;}
 #our{margin-left: 190px;font-size: 20px;}
 .footer{display: flex; margin-top: 2%;background-color: #1D5801;height: 250px;color: white;font-size: 20px;}
+
 .tion{margin-left: 25%;margin-top: 5%;}
 .con{margin-left: 25%;margin-top: 5%;}
 .location{margin-left: 3.5%;margin-top: 5%;}
@@ -116,6 +119,14 @@ padding: 0 30px;
 }
 
 @media only screen and (max-width: 920px) {
+
+.tion{margin-left: 20%;margin-top: 5%;}
+.con{margin-left: 20%;margin-top: 5%;}
+.location{margin-left: 10%;margin-top: 5%;}
+
+
+@media only screen and (max-width: 575px) {
+
   body {
     font-size: 12px;
     margin-left: 10px;
@@ -212,6 +223,7 @@ margin-top: 50%;
       font-size:15px;
   }
   .con{
+
       margin-left:10px;
   }
   .tion{
@@ -222,6 +234,15 @@ margin-top: 50%;
   }
   .location{
       margin-left:10px;
+
+      margin-left:30%;
+  }
+  .tion{
+    margin-left:30%;
+  }
+  .location{
+      margin-left:30%;
+
   }
   #prdt{
       margin-left:5%
@@ -237,6 +258,9 @@ margin-top: 50%;
   #about{
     /* margin-top:-50%; */
     
+  }
+  #about{
+    margin-top:-50%;
   }
   #missionword{
       margin-left:0;
@@ -322,20 +346,27 @@ margin-top: 50%;
     color: white;
   }
   #pic2 {
+
     width: 90%;margin-left:5%;height:60%;margin-top: -5%;
+
+
   }
   #pic3 {
     width: 100%;margin-top: 50px;margin-left:0
   }
   #pic4 {
     width: 80%;
+
     margin-left:0%;
+
+
   }
   #us1, #us2, #us3, #us4, #us5 {
     width: 50%;
   }
   #v1, #v2, #v3 {
     width: 70%;
+
     margin-left: 50px;
    
     
@@ -356,6 +387,7 @@ margin-top: 50%;
   #get2 {
     font-size: 23px;
     margin-left: 10px;
+
 
   }
   #about2 {
@@ -394,7 +426,9 @@ margin-top: 50%;
     font-size: 16px;
     margin-left:20px;
     height:30%;
+
     margin-left: 10px;
+
   }
   #hands {
     font-size: 40px;
@@ -459,246 +493,3 @@ margin-top: 50%;
     display: none;
     
   }
-}
-
-
-
-/* @media only screen and (min-width: 576px) {
-  body {
-    font-size: 12px;
-  }
-  .footer{
-      display:flex;
-      height:100%;
-      width:100%;
-      font-size:15px;
-  }
-  .con{
-      margin-left:15%;
-  }
-  .tion{
-    margin-left:20%;
-  }
-  .location{
-      margin-left:5%;
-  }
-  #prdt{
-      margin-left:5%
-  }
-  #our{
-      margin-left:0px;
-      font-size:xx-small
-  }
-  #about2{
-      margin-left:0px;
-  }
-  #about{
-    margin-top:-20%;
-  }
-  #missionword{
-      margin-left:0;
-  }
-  #visionword{
-      margin-left:0;
-  }
-  #bring{
-      margin-left:0;
-  }
-  #pic4{
-      margin-top:10%;
-  }
-  #thank{
-      margin-top:10px
-  }
-  #us2{
-      margin-left:20%;
-      align-items:center;
-  }
-  #us1{
-      margin-left:20%;
-  }
-  #us3{
-      margin-left:20%;
-  }
-  #us4{
-      margin-left:20%;
-  }
-  #us5{
-      margin-left:20%;
-  }
-  #words{
-      margin-left:0;
-  }
-  #team{
-      margin-left:35%;
-  }
-  #devs{
-      margin-left:8%;
-      font-size:10px;
-  }
-  #app{
-      margin-left:5%;
-  }
-  #hands{
-      margin-left:15%;
-  }
-#fresh{margin-left: -399px;font-size:30px;margin-top:150px}
-/*   #rahisi{margin-left:-459px;margin-top:10%;font-size:40px} */
-  /* #rahisi{margin-left: -399px;font-size: 30px;margin-top: -480%;}   */
-  /* .logo { */
-    /* font-size: 10px; */
-  /* } */
-/*   .home{margin-left: -200px;font-size: small;} */
-/*   .about{margin-left: -20px;} */
-  /* .header{width: 99%;height:20%}
-  #pic1 {
-    width: 430px;margin-top: -35px;margin-left:px;
-  }
-  #nav{
-      display:grid;
-      margin-left:10%; 
-   }
- .home{
-      margin-left:-5px;
-      font-size:20px;
-  } 
-  .about{
-      margin-left:-5%;
-  } */
-  /* .product{
-      margin-left:-5%;
-  }
-  .contacts{
-    margin-left:-5%;
-  }
-  #pic2 {
-    width: 90%;margin-left:5%;height:40%;margin-top:30%;
-  }
-  #pic3 {
-    width: 100%;margin-top: 50px;margin-left:0
-  } */
-  /* #pic4 {
-    width: 80%;
-    margin-left:10%;
-  }
-  #us1, #us2, #us3, #us4, #us5 {
-    width: 50%;
-  }
-  #v1, #v2, #v3 {
-    width: 80%;
-    margin-left:10%
-  }
-  #v1{
-    height:40vh;
-  }
-  #v2{
-    height:40vh;
-    margin-top:50px
-  }
-  #v3{
-    height:40vh;
-    margin-top:50px
-  }
-  #get1 {
-    font-size: 15px;
-    margin-top: 20px;margin-left: 75px;
-  }
-  #get2 {
-    font-size: 16px;margin-left:88px;
-  }
-  #about2 {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-left:280px;
-  }
-  #words {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left:40px;
-  } */
-  /* #mission {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left:280px;
-  }
-  #missionword {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left:40px;
-  }
-  #vision {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left:280px;
-  }
-  #visionword {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left:40px;
-  }
-  #thank {
-    font-size: 16px;
-    margin-left:20px;
-    height:30%;
-  }
-  #hands {
-    font-size: 40px;
-    margin-top: 20px;
-    margin-top:-0%;
-  }
-  #team {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  #devs {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  #prdt {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-left:300px
-  }
-  #app {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left:280px
-  }
-  #our {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-left:80px;
-  }
-  .section1, .section2, .section3 {
-    margin-top: 30px;
-  }
-  #footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #foot {
-    margin-top: 20px;
-  }
-  .foot_contact {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .foot_contact h4 {
-    font-size: 16px;
-  }
-  .foot_contact div {
-    flex: 1;
-    margin-right: 20px;
-  }
-  #f1, #f2, #f3, #f4 {
-    display: none;
-  }
-  #h4{
-    margin-left:80px;
-  }
-  #p5{
-    margin-left:100px;
-  }  */
