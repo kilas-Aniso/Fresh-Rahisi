@@ -9,17 +9,22 @@
     <title>Fresh Rahisi</title>
 </head>
 <body>
-    <section class="section1" id="home">
-  <header class="header">
-    <img src="images/Screenshot_from_2023-05-15_18-14-54-removebg-preview.png" id="pic1">
-    <a href="#" class="logo"><p id="fresh">Fresh</p>
-      <p id="rahisi">Rahisi</p></a>
-  <nav id="nav">
-   <a href="#home" class="home">Home</a>
-   <a href="#about" class="about">About us</a>
-   <a href="#product" class="product">Product</a>
-   <a href="#contacts" class="contacts">Contacts</a>
-</header>
+  <section id="home">
+    <nav id="sideNav">
+      <img src="images/ones.png" id="logo1">
+      <ul>
+        
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contacts">Contact Us</a></li>
+      </ul>
+      
+    </nav>
+    
+    <img src="images/menu-removebg-preview (1).png" id="menuBtn">
+
+  </section>
 <img src="images/greens.jpg" id="pic2">
 <div class="wordy">
 <p id="get1">GET IT FRESH EVERYDAY</p>
@@ -125,4 +130,19 @@
   </footer>
 </section>
 </body>
+<script>
+  var menuBtn = document.getElementById("menuBtn");
+  var sideNav = document.getElementById("sideNav");
+  sideNav.style.right="-500px";
+  menuBtn.onclick = function(){
+    if(sideNav.style.right == "-500px"){
+      sideNav.style.right = "0";
+    }
+    else{
+      sideNav.style.right = "-500px";
+    }
+  }
+
+</script>
 </html>
+
