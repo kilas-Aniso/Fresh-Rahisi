@@ -53,10 +53,7 @@ html{
 /* #logs{margin-top: 100px;}
 #about{margin-top: -15%;} 
  #fresh2{margin-left: 40px;}
-<<<<<<< HEAD
-=======
 
->>>>>>> e8b5daed09a4bcefa2763841543c0fd7ecfaeabe
 #rahisi2{margin-top: -18px;margin-left: 80px;} */
 #pic1{
   margin-left: 4%;
@@ -104,7 +101,7 @@ html{
 }
 
 
-#mission{
+/* #mission{
   font-size: 25px;
   font-weight: 800;
   margin-left: 35px;
@@ -129,8 +126,41 @@ html{
   margin-left: 200px;
   -top: -22px;
   font-size: 20px;
+} */
+
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.mission,
+.vision {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: calc(50% - 20px); /* Adjust the width as needed */
+}
+
+.mission p,
+.vision p {
+  margin: 10px 0;
+}
+
+
+#pic4 {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+
+#thank {
+  margin-top: 20px;
+  font-style: italic;
+  text-align: center;
+}
 
 #bring{
   text-align: center;
@@ -142,10 +172,10 @@ html{
 }
 
 
-#pic4{
+/* #pic4{
   margin-top: 70px;
   margin-left: -30px;
-}
+} */
 
 
 #thank{
@@ -265,20 +295,63 @@ padding: 0 30px;
   width: 250px;
   height: 250px;
 }
-#prdt{margin-left: 500px;font-size: 50px;font-weight: 1000;color: rgb(5, 109, 35);}
-#app{color: green;font-size: 30px;font-weight: 800;margin-left: 500px;margin-top: 20px;}
-#v1{width: 28%;border-radius: 40px 120px;margin-left: 44px; height: 57vh;}
-#v2{width: 28%;height:57vh;border-radius: 40px 120px;margin-left: 53px;}
-#v3{width: 28%;height:57vh;border-radius: 40px 120px;margin-left: 59px;}
-#our{margin-left: 190px;font-size: 20px;}
-.footer{display: flex; margin-top: 2%;background-color: #1D5801;height: 250px;color: white;font-size: 20px;}
-<<<<<<< HEAD
-=======
+#prdt{margin-left: 500px;
+  font-size: 50px;
+  font-weight: 1000;
+  color: rgb(5, 109, 35);
+}
+#app{
+  color: green;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+#v1{
+  width: 28%;
+  border-radius: 40px 120px
+  ;margin-left: 44px;
+   height: 57vh;
+  }
+#v2{
+  width: 28%;
+  height:57vh;
+  border-radius: 40px 120px;
+  margin-left: 53px;
+}
 
->>>>>>> e8b5daed09a4bcefa2763841543c0fd7ecfaeabe
-.tion{margin-left: 25%;margin-top: 5%;}
-.con{margin-left: 25%;margin-top: 5%;}
-.location{margin-left: 3.5%;margin-top: 5%;}
+#v3{
+  width: 28%;
+  height:57vh;
+  border-radius: 40px 120px;
+  margin-left: 59px;
+}
+
+#our{
+  margin-left: 190px;
+  font-size: 20px;
+}
+
+.footer{
+  display: flex; 
+  margin-top: 2%;
+  background-color: #1D5801;
+  height: 250px;
+  color: white;
+  font-size: 20px;}
+
+.tion{
+  margin-left: 25%;
+  margin-top: 5%;}
+
+.con{
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.location{
+  margin-left: 3.5%
+  ;margin-top: 5%;
+}
 #prdt{
   text-align: center;
   font-size: 50px;
@@ -360,10 +433,9 @@ padding: 0 30px;
 
 @media only screen and (max-width: 920px) {
 
->>>>>>> e8b5daed09a4bcefa2763841543c0fd7ecfaeabe
   body {
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 10px
   }
   #sideNav{
     width: 250px;
