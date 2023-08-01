@@ -66,6 +66,7 @@ html{
   height: 80vh;
   border-radius: 120px 40px;
   margin-top: 5px;
+  margin-bottom: 7%;
 }
 
 
@@ -90,14 +91,18 @@ html{
   font-size: 50px;
   font-weight: 1000;
   color: rgb(5, 109, 35);
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 10px;
   text-align: center;
+  margin-left: 5%;
+
 }
 
 #words{
-  margin-left: 150px;
+  margin-left: 5%;
   font-size: 20px;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 
@@ -129,7 +134,7 @@ html{
 } */
 
 
-.section2 {
+.mvSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -140,7 +145,13 @@ html{
   background-color: #f2f2f2;
   padding: 10px;
   border: 1px solid #ccc;
-  width: calc(50% - 20px); /* Adjust the width as needed */
+  width: calc(40% - 20px); /* Adjust the width as needed */
+  margin-left: 5%;
+  margin-right: 5%;
+  height: calc(20% -10px);
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: #333;
 }
 
 .mission p,
@@ -160,6 +171,7 @@ html{
   margin-top: 20px;
   font-style: italic;
   text-align: center;
+  box-shadow: #333;
 }
 
 #bring{
@@ -187,6 +199,7 @@ html{
   height: 250px;
   padding: 50px;
   border-radius: 40px 120px;
+  box-shadow: #333;
 }
 
 
@@ -217,12 +230,13 @@ html{
 #sideNav {
   display: flex;
   place-items: center;
+  /* position: fixed; */
   
   /* justify-content: space-evenly; */
 background-color: #1D5801;
 backface-visibility: hidden;
 
-height: 10vh;
+height: 15vh;
 padding: 0 30px;
 
 
@@ -239,6 +253,26 @@ padding: 0 30px;
 
 
 }
+#sideNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align menu items to the right */
+  align-items: center; /* Vertically center menu items */
+  padding: 0;
+  margin: 0;
+  flex-grow: 1; /* Allow the menu items to grow and take remaining space */
+}
+
+#sideNav ul li {
+  padding: 0 30px;
+  margin: 0;
+}
+
+#fr {
+  color: white;
+  font-weight: 800;
+}
+
 
 /* #sideNav li {
   padding-top: 200px;
